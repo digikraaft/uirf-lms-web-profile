@@ -111,3 +111,20 @@
 h6, .h6, .profile-page .edit-section-header {
   font-size: inherit;
 }
+.pgn-transition-replace-group .editable-item-header button, .profile-page .container-lg .row .pgn-transition-replace-group .editable-item-header button, .profile-page .container-md .row .pgn-transition-replace-group .editable-item-header button, .profile-page .container-sm .row .pgn-transition-replace-group .editable-item-header button, .profile-page .container-xl .row .pgn-transition-replace-group .editable-item-header button {
+  background: #fe6f00 !important;
+  border: 1px solid #fe6f00 !important;
+}
+.profile-page .container-fluid .row form .form-group.flex-shrink-0.flex-grow-1 button, .profile-page .container-lg .row form .form-group.flex-shrink-0.flex-grow-1 button, .profile-page .container-md .row form .form-group.flex-shrink-0.flex-grow-1 button, .profile-page .container-sm .row form .form-group.flex-shrink-0.flex-grow-1 button, .profile-page .container-xl .row form .form-group.flex-shrink-0.flex-grow-1 button {
+  background: #fe6f00;
+  border: 1px solid #fe6f00 !important;
+}
+.btn-primary.focus:before, .btn-primary:focus:before, body.indigo-dark-theme .modal button.focus:before, body.indigo-dark-theme .modal button:focus:before {
+  border: 0 !important;
+}
+.bg-primary{
+  background: #ff6f00 !important;
+}
+#root header.site-header-desktop .menu .menu-content a:hover {
+  background: #f5e3c3 !important;
+}

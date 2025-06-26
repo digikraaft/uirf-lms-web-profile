@@ -18,6 +18,7 @@ import ReactDOM from 'react-dom';
 
 import Header from '@edx/frontend-component-header';
 import FooterSlot from '@openedx/frontend-slot-footer';
+import CustomFooter from "./plugin-slots/CustomFooter";
 
 import messages from './i18n';
 import configureStore from './data/configureStore';
@@ -35,7 +36,7 @@ subscribe(APP_READY, () => {
       <main id="main">
         <AppRoutes />
       </main>
-      <FooterSlot />
+      <CustomFooter />
     </AppProvider>,
     document.getElementById('root'),
   );
