@@ -128,3 +128,6 @@ h6, .h6, .profile-page .edit-section-header {
 #root header.site-header-desktop .menu .menu-content a:hover {
   background: #f5e3c3 !important;
 }
+.site-header-desktop .main-nav .nav-link:hover, .site-header-desktop .main-nav .nav-link:focus, .site-header-desktop .main-nav .nav-link.active, .site-header-desktop .main-nav .expanded .nav-link{
+  background: #ff6f00 !important;
+}
